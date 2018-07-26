@@ -1,0 +1,114 @@
+<!-- book-detail.wxml -->
+<import src="../template-list/template-list.wxml" />
+
+<view class='book-detail'>
+  <view class='book-main'>
+    <view class='img-box'>
+      <image src='../../images/books/book1.jpg'></image>
+    </view>
+    <view class='t-box'>
+      <view class='bo-na'>雨季不再来</view>
+      <view class='po-box'>
+        <view class='st-box'>
+          <image class='star-img' src='../../images/icon/star_fill.png'></image>
+          <image class='star-img' src='../../images/icon/star_fill.png'></image>
+          <image class='star-img' src='../../images/icon/star_fill.png'></image>
+          <image class='star-img' src='../../images/icon/star_fill.png'></image>
+          <image class='star-img' src='../../images/icon/star.png'></image>
+          <view class='p-num'>8.8</view>
+        </view>
+        <view class='sep-l'>|</view>
+        <view class='p-po'>107</view>
+        <view class='p-po'>人评分</view>
+      </view>
+      <view class='au-na'>柠檬羽嫣</view>
+      <view class='pri-box'>
+        <view>599月饼</view>
+        <view>299月饼</view>
+      </view>
+    </view>
+    
+  </view>
+  <view class='bo-info'>
+    <view class="in-de {{isShowInfo? 'show-all' : ''}}">善意能消戾，善意能得缘，善意能带业往生，善意能回头是岸；善意能够帮人捕捉并建立起独特的幸福感；善意能消戾，善意能得缘，善意能带业往生，善意能回头是岸；善意能够帮人捕捉并建立起独特的幸福感；善意能消戾，善意能得缘，善意能带业往生，善意能回头是岸；善意能够帮人捕捉并建立起独特的幸福感；善意能消戾，善意能得缘，善意能带业往生，善意能回头是岸；善意能够帮人捕捉并建立起独特的幸福感；善意能消戾，善意能得缘，善意能带业往生，善意能回头是岸；善意能够帮人捕捉并建立起独特的幸福感；善意能消戾，善意能得缘，善意能带业往生，善意能回头是岸；善意能够帮人捕捉并建立起独特的幸福感；善意能消戾，善意能得缘，善意能带业往生，善意能回头是岸；善意能够帮人捕捉并建立起独特的幸福感；善意能消戾，善意能得缘，善意能带业往生，善意能回头是岸；善意能够帮人捕捉并建立起独特的幸福感；善意能消戾，善意能得缘，善意能带业往生，善意能回头是岸；善意能够帮人捕捉并建立起独特的幸福感；善意能消戾，善意能得缘，善意能带业往生，善意能回头是岸；善意能够帮人捕捉并建立起独特的幸福感；善意能消戾，善意能得缘，善意能带业往生，善意能回头是岸；善意能够帮人捕捉并建立起独特的幸福感；善意能消戾，善意能得缘，善意能带业往生，善意能回头是岸；善意能够帮人捕捉并建立起独特的幸福感；
+    </view>
+    <view bindtap="showAllInfo" class='o-c'> 
+      <image src="{{isShowInfo?'../../images/icon/arr-up.png' : '../../images/icon/arr-down.png'}}"   ></image> 
+    </view> 
+  </view>
+  <view class='bo-label'>
+    <view class='la-box'>青梅竹马</view>
+    <view class='la-box'>纠葛</view>
+  </view>
+  <view class='ch-cat'>
+    <view class='cat-to'>查看目录： 共28章</view>
+    <view class='li-r'>
+      <image src='../../images/icon/arr-r.png'></image>
+    </view>
+  </view>
+  <view class='bo-comm'>
+    <view class='comm-h'>图书评价</view>
+    <view class='comm-cont'>
+      <view class='comm-box'>
+        <view class='user-img'>
+          <image src='../../images/icon/user.png'></image>
+        </view>
+        <view class='r-box'>
+          <view class='box-h'>
+            <view class='u-na'>sunny</view>
+            <view class='com-ti'>2016-08-27</view>
+          </view>
+          <view class='comm-wo'>书名就定义了整个故事的基调了，很喜欢结局，作者处理的很好。素锦是个目标明确并且为之努力的人，淡漠，孤僻，高傲，独立又敏感，不了解的人就是这样。</view>
+        </view>
+      </view>
+      <view class='comm-box'>
+        <view class='user-img'>
+          <image src='../../images/icon/user.png'></image>
+        </view>
+        <view class='r-box'>
+          <view class='box-h'>
+            <view class='u-na'>sunny</view>
+            <view class='com-ti'>2016-08-27</view>
+          </view>
+          <view class='comm-wo'>书名就定义了整个故事的基调了，很喜欢结局，作者处理的很好。素锦是个目标明确并且为之努力的人，淡漠，孤僻，高傲，独立又敏感，不了解的人就是这样。</view>
+        </view>
+      </view>
+      <view class='comm-box'>
+        <view class='user-img'>
+          <image src='../../images/icon/user.png'></image>
+        </view>
+        <view class='r-box'>
+          <view class='box-h'>
+            <view class='u-na'>sunny</view>
+            <view class='com-ti'>2016-08-27</view>
+          </view>
+          <view class='comm-wo'>书名就定义了整个故事的基调了，很喜欢结局，作者处理的很好。素锦是个目标明确并且为之努力的人，淡漠，孤僻，高傲，独立又敏感，不了解的人就是这样。</view>
+        </view>
+      </view>
+    </view>
+    <view class='comm-tot'>全部评论3</view>
+  </view>
+  <view class='like-more'>
+    <template is="book-list" data="{{...moreBookList}}"></template>
+  </view>
+  <view class='bo-de-in'>
+    <view class='in-h'>图书更多信息</view>
+    <view class='in-info'>
+      <view class='info-li'>字数：15.1万字</view>
+      <view class='info-li'>上架：2018-03-21</view>
+      <view class='info-li'>出版：湖南文艺出版社</view>
+      <view class='info-li'>书号：394502934582374</view>
+      <view class='info-li'>免责声明：本书数字版权由汤亚萍传媒提供，并由其授权掌阅科技股份有限公司制作发行，若书中含有不良信息，请书友积极告知客服。</view>
+    </view>
+  </view>
+</view>
+<view class='bot-nav'>
+  <view class='cho-box'>
+    <image class='nav-img' src='../../images/nav/shelf.png'></image>
+    <view class='nav-n'>加入书架</view>
+  </view>
+  <view class='cho-box'>
+    <image class='nav-img' src='../../images/nav/shelf.png'></image>
+    <view class='nav-n'>免费试读</view>
+  </view>
+</view>

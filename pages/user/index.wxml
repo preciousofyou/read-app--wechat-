@@ -1,0 +1,24 @@
+<!-- user/index.wxml -->
+
+<view class='user-box'>
+  <view class='user-head'>
+    <view class='head-img'>
+      <image wx:if="{{userInfo.avatarUrl}}" class='user-img' src='{{userInfo.avatarUrl}}'></image>
+      <image wx:else class='user-img' src='../../images/icon/user.png'></image>
+    </view>
+    <view wx:if="{{userInfo.nickName}}" class='user-name'>{{userInfo.nickName}}</view>
+    <button wx:else bindgetuserinfo='login' class='user-name login-btn' open-type='getUserInfo'>点击登录</button>
+    <view class='user-label'> 
+      <view class='lab-l lab-act'>LV1</view>
+      <view class='lab-l'>VIP</view>
+    </view>
+    <view class='user-to'>
+      <view class='to-item' wx:for="{{userItem}}" wx:for-item="userI" wx:key="id">
+       <view class='to-img'>
+        <image src='{{userI.img}}'></image>
+       </view>
+       <view class='to-title'>{{userI.title}}</view>
+      </view>
+    </view>
+  </view>
+</view>

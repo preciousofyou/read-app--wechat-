@@ -1,0 +1,50 @@
+/* bookshelf/index.wxss */
+
+.sh-head{
+  background-color: #ededed;
+  height: 60rpx;
+  padding: 0 40rpx;
+  line-height: 60rpx;
+}
+.sh-head .he-t{
+  font-size: 28rpx;
+  color: #2ac795;
+  float: left;
+}
+.sh-head .ic-r{
+  float: right;
+  display: flex;
+}
+.sh-head .ic-r .sh-ic{
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 10rpx;
+  vertical-align: top;
+}
+.sh-head .ic-r .sh-ic:first-child{
+  margin-right: 25rpx;
+}
+.sh-head .ic-r .sh-ic image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.sh-list .sh-em{
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 120rpx;
+  color: #363a3d;
+}
+.sh-list .sh-cont{
+  padding: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sh-list .sh-cont .cont-box{
+  width: 180rpx;
+  margin: 10rpx 0;
+}
+.sh-list .sh-cont .cont-box image{
+  width: 180rpx;
+  height: 240rpx;
+}

@@ -1,0 +1,31 @@
+<!-- bookshelf/index.wxml -->
+
+<view class='bookshelf'>
+  <view class='sh-head'>
+    <view class='he-t'>编辑</view>
+    <view class='ic-r'>
+     <view class='sh-ic'><image src='../../images/icon/search.png'></image></view>
+     <view class='sh-ic'><image src='../../images/icon/add.png'></image></view>
+    </view>
+  </view>
+  <view class='sh-list'>
+     <view class='sh-em'>
+      你的书架竟然是空的
+    </view> 
+    <!-- <view class='sh-cont'>
+      <view class='cont-box'><image src='../../images/books/book1.jpg'></image></view>
+      <view class='cont-box'><image src='../../images/books/book2.jpg'></image></view>
+      <view class='cont-box'><image src='../../images/books/book3.jpg'></image></view>
+      <view class='cont-box'><image src='../../images/books/book4.jpg'></image></view>
+      <view class='cont-box'><image src='../../images/books/book2.jpg'></image></view>
+      <view class='cont-box'><image src='../../images/books/book3.jpg'></image></view>
+      <view class='cont-box'><image src='../../images/books/book4.jpg'></image></view>
+      <view class='cont-box'><image src='../../images/books/book2.jpg'></image></view>
+      <view class='cont-box'><image src='../../images/books/book3.jpg'></image></view>
+      <view class='cont-box'><image src='../../images/books/book4.jpg'></image></view>
+      <view class='cont-box'><image src='../../images/books/book2.jpg'></image></view>
+      <view class='cont-box'><image src='../../images/books/book3.jpg'></image></view>
+      <view class='cont-box'><image src='../../images/books/book4.jpg'></image></view>
+    </view> -->
+  </view>
+</view>

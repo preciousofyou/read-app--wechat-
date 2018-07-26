@@ -1,0 +1,72 @@
+
+.user-box{
+  background-color: #e8e8e8;
+}
+.user-box .user-head{
+  text-align: center;
+  padding: 40rpx;
+  background-color: #f5f5f5;
+}
+.user-box .head-img{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.user-box .head-img image{
+  width: 140rpx;
+  height: 140rpx;
+}
+.user-box .user-name{
+  font-size: 26rpx;
+  line-height: 60rpx;
+  color: #353535;
+}
+.user-box .login-btn{
+  border: 1rpx solid #29c796;
+  width: 180rpx;
+  margin: 40rpx auto;
+  border-radius: 20rpx;
+}
+.user-box .user-label{
+  display: flex;
+  width: 180rpx;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.user-box .user-label .lab-l{
+  font-size: 20rpx;
+  background-color: #c4c4c4;
+  color: #fff;
+  width: 80rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+}
+.user-box .user-label .lab-l.lab-act{
+  background-color: #29c796;
+}
+
+.user-to{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40rpx;
+}
+.user-to .to-item{
+  width: 140rpx;
+  text-align: center;
+}
+.user-to .to-item .to-img{
+  width: 80rpx;
+  height:80rpx;
+  margin: 0 auto;
+}
+.user-to .to-item .to-img image{
+  width: 80rpx;
+  height:80rpx;
+}
+.user-to .to-item .to-title{
+  font-size: 24rpx;
+  color: #353535;
+  line-height: 40rpx;
+}

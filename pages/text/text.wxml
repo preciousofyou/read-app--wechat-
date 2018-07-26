@@ -1,0 +1,13 @@
+<!--pages/text/text.wxml-->
+<view class='real-name-auth real-upload'>
+  <view class='real-pic'>
+    <view class='real-front real-upload'>
+      <view class='real-text'>
+        <text>请拍摄身份证正面</text>
+      </view>
+      <view class='real-p'>
+        <image data-on="realFront" bindtap='uploadImg' src='{{realFrontUrl}}'></image>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,240 @@
+/* pages/book-detail/book-detail.wxss */
+@import "../template-list/template-list.wxss";
+.book-detail{
+  padding-bottom: 100rpx;
+}
+.book-main{
+  display: flex;
+  padding: 40rpx;
+}
+.book-main .img-box{
+  width: 180rpx;
+  height: 240rpx;
+}
+.book-main .t-box{
+  margin-left:20rpx;
+  padding: 20rpx 0;
+}
+.book-main .t-box .bo-na{
+  font-size: 32rpx;
+  color: #363a3d;
+}
+.book-main .t-box .st-box{
+  display: flex;
+}
+.book-main .t-box .st-box .p-num{
+  color: #fea249;
+  margin:0 10rpx;
+}
+.book-main .t-box .sep-l{
+  margin: 0 10rpx;
+  color: #787b7d;
+}
+.book-main .t-box .p-po{
+  color: #787b7d;
+}
+.book-main .t-box .po-box{
+  display: flex;
+  font-size: 26rpx;
+  line-height: 60rpx;
+}
+.book-main .t-box .po-box .star-img{
+  width:30rpx;
+  height:30rpx;
+  margin-top: 15rpx;
+}
+.book-main .t-box .au-na{
+  font-size: 28rpx;
+  color: #2ac795;
+}
+.book-main .t-box .pri-box{
+  font-size: 24rpx;
+  display: flex;
+  line-height: 50rpx;
+}
+.book-main .t-box .pri-box view:first-child{
+  color: #787b7d;
+  text-decoration: line-through;
+}
+.book-main .t-box .pri-box view:last-child{
+  color: #363a3d;
+  margin-left: 10rpx;
+}
+.bo-info{
+  padding: 20rpx 40rpx;
+  background-color: #fcfcfc;
+  font-size: 26rpx;
+  color: #363a3d;
+  position: relative;
+}
+.bo-info .in-de{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical; 
+  height: 100rpx;
+}
+.bo-info .in-de.show-all{
+  display: block;
+  height: auto;
+}
+.bo-info .o-c{
+  background-color: #b7b8b9;
+  width:30rpx;
+  height: 30rpx;
+  overflow: hidden;
+  border-radius: 10rpx;
+  position: absolute;
+  bottom: 20rpx;
+  right: 40rpx;
+}
+.bo-info .o-c image{
+  width:20rpx;
+  height: 20rpx;
+  margin: 3px;
+}
+.bo-label{
+  height: 60rpx;
+  background-color: #fcfcfc;
+  display: flex;
+  padding: 0 40rpx;
+}
+.bo-label .la-box{
+  border: 1px solid #b7b8b9;
+  font-size: 24rpx;
+  border-radius: 10rpx;
+  line-height: 40rpx;
+  height: 40rpx;
+  overflow: hidden;
+  padding: 0 10rpx;
+  margin: 0 10rpx;
+  color: #b7b8b9;
+  margin-top: 5rpx;
+}
+.ch-cat{
+ background-color: #fcfcfc;
+ height:80rpx;
+ padding: 0 40rpx;
+ margin-top: 1px;
+ position: relative;
+}
+.ch-cat .cat-to{
+  font-size: 26rpx;
+  line-height: 80rpx;
+  color: #363a3d;
+}
+.ch-cat .li-r{
+  width: 40rpx;
+  height:40rpx;
+  position: absolute;
+  right: 40rpx;
+  top: 20rpx;
+}
+.ch-cat .li-r image{
+  width:40rpx;
+  height: 40rpx;
+}
+.bo-comm{
+  background-color: #fcfcfc;
+  padding: 0 40rpx;
+  margin-top: 2px;
+}
+.bo-comm .comm-h{
+  height:80rpx;
+  font-size: 26rpx;
+  color: #363a3d;
+  line-height: 80rpx;
+}
+.bo-comm .comm-cont .comm-box{
+  display: flex;
+}
+.bo-comm .comm-cont .comm-box .user-img{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.bo-comm .comm-cont .comm-box .user-img image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.bo-comm .comm-cont .comm-box .r-box{
+  width:80%;
+  margin-left: 20rpx;
+}
+.r-box .u-na{
+  font-size: 24rpx;
+  color: #2ac795;
+  line-height: 40rpx;
+}
+.r-box .box-h{
+  display: flex;
+  height: 40rpx;
+  justify-content: space-between;
+}
+.r-box .box-h .com-ti{
+  font-size: 22rpx;
+  color: #b7b8b9;
+  line-height: 40rpx;
+}
+.r-box .comm-wo{
+  font-size: 26rpx;
+  color: #363a3d;
+  padding: 20rpx 0;
+  border-bottom: 1px solid #dedfdf;
+}
+.r-box .comm-wo:last-child{
+  border-bottom:none;
+}
+.comm-tot{
+  color: #2ac795;
+  text-align: center;
+  font-size: 26rpx;
+  line-height: 60rpx;
+  border-top: 1px solid #dedfdf;
+}
+.bo-de-in{
+  background-color: #fcfcfc;
+  margin-top:10rpx;
+  padding: 20rpx 40rpx;
+}
+.bo-de-in .in-h{
+  font-size: 26rpx;
+  color: #363a3d;
+  line-height: 60rpx;
+}
+.bo-de-in .in-info{
+  font-size: 22rpx;
+  color: #7b7e80;
+  line-height: 40rpx;
+}
+.bot-nav{
+  display: flex; 
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width:100%;
+}
+.bot-nav .cho-box{
+  width: 50%;
+  text-align: center;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  padding: 15rpx 0;
+}
+.bot-nav .cho-box:first-child{
+  background-color: #eeeeee;
+  color: #363a3d;
+}
+.bot-nav .cho-box:last-child{
+  background-color: #2ac795;
+  color: #fff;
+}
+.bot-nav .cho-box .nav-img{
+  width:40rpx;
+  height: 40rpx;
+}
+.bot-nav .cho-box .nav-n{
+
+}

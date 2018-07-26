@@ -1,0 +1,19 @@
+<!-- category/index.wxml -->
+<import src="../template-list/template-list.wxml" />
+
+<view class='category'>
+  <template is="home-search"></template>
+  <view class='cate-tab'>
+    <view class='tab-list'>
+      <view wx:for="{{cateTabs}}" wx:key="id" class='tab-box' wx:for-index="i" wx:for-item="tabs">
+        <view id="{{i}}" class="tab-name {{i == curTab? 'cur-tab':''}}" bindtap="tabChange">{{tabs.title}}</view>
+      </view>
+    </view>
+    <view class='tab-right'>
+      <view class='r-list' wx:for="{{cateTabs[curTab].cataList}}" wx:key="id" wx:for-item="items">
+        <image src='{{items.img}}'></image>
+        <view class='i-text'>{{items.name}}</view>
+      </view>
+    </view>
+  </view>
+</view>

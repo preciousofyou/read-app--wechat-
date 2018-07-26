@@ -1,0 +1,56 @@
+<!-- sear-page/index.wxml -->
+
+<view class='sear-page'>
+  <view class='sear-head'>
+    <view class='sear-fr'>
+      <input auto-focus class='sear-inp' placeholder='搜索本地/书城'></input>
+      <view class='sear-box'>
+        <image src='../../images/icon/search.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='rec-fra'>
+    <view class='rec-t'>
+      <view class='t-title'>大家热搜</view>
+      <view class='t-ch' bindtap='changeCurSear'>换一批</view>
+    </view>
+    <view class='rec-ul'>
+      <view wx:for="{{searList[curSearItem]}}" wx:key="id" class='rec-li'>{{item}}</view>
+    </view>
+  </view>
+  <view class='sear-his'>
+    <view class='his-t'>
+      <view class='he-title'>搜索历史</view>
+      <view class='he-ch'>清空历史</view>
+    </view>
+    <view class='his-ul'>
+      <view class='his-li'>
+        <view class='li-img'>
+          <image src='../../images/icon/history.png'></image>
+        </view>
+        <view class='li-na'>雨季不再来</view>
+        <view class='li-r'>
+          <image src='../../images/icon/close.png'></image>
+        </view>
+      </view>
+      <view class='his-li'>
+        <view class='li-img'>
+          <image src='../../images/icon/history.png'></image>
+        </view>
+        <view class='li-na'>雨季不再来</view>
+        <view class='li-r'>
+          <image src='../../images/icon/close.png'></image>
+        </view>
+      </view>
+      <view class='his-li'>
+        <view class='li-img'>
+          <image src='../../images/icon/history.png'></image>
+        </view>
+        <view class='li-na'>雨季不再来</view>
+        <view class='li-r'>
+          <image src='../../images/icon/close.png'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

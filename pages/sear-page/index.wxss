@@ -1,0 +1,111 @@
+/* pages/sear-page/index.wxss */
+
+.sear-page{
+  background-color: #f0f0f0;
+}
+.sear-head .sear-fr{
+
+}
+.sear-head{
+  background-color: #f0f0f0;
+  height: 75rpx;
+  padding-top: 20rpx;
+  position: fixed;
+  top:0;
+  left:0; 
+  width:100%;
+  z-index: 3;
+  border-bottom: 1px solid #c6c6c6;
+}
+.sear-fr{
+  width: 90%;
+  background-color: #fff; 
+  margin: 0 auto;
+  border-radius: 50rpx;
+  height: 60rpx; 
+  border: 1rpx solid #c7c7c7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sear-fr .sear-inp{
+  font-size: 24rpx;
+  width: 82%;
+  color: #bfbfbf;
+  margin-left: 35rpx;
+}
+.sear-fr .sear-box{
+  width: 40rpx;
+  height: 40rpx;
+  cursor: pointer;
+  margin-right: 30rpx;
+}
+.sear-fr .sear-box image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.rec-fra{
+  
+  margin-top: 94rpx;
+  padding: 0 40rpx;
+}
+.sear-his{
+  
+  padding: 0 40rpx;
+  margin-top: 30rpx;
+}
+.rec-fra .rec-t,.sear-his .his-t{
+  height: 80rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c6c6c6;
+}
+.rec-fra .rec-t .t-title,.sear-his .his-t .he-title{
+  font-size: 28rpx;
+  line-height: 80rpx;
+  color: #aaaaaa;
+}
+.rec-fra .rec-t .t-ch,.sear-his .his-t .he-ch{
+  font-size: 26rpx;
+  line-height: 80rpx;
+  color: #2ac795;
+}
+.rec-fra .rec-ul{
+   display: flex;  
+   justify-content: space-between;   
+   flex-wrap: wrap;   
+   padding: 10rpx 0;  
+}
+.rec-fra .rec-ul .rec-li{
+  width: 32%;
+  height: 60rpx;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  background-color: #f8f8f8;
+  text-align: center;
+  color: #555555;
+  margin: 10rpx 0;  
+}
+.his-ul .his-li{
+  height: 90rpx;
+  display: flex;
+  justify-content: space-between;
+  border-bottom:  1px solid #d4d4d4;
+}
+.his-ul .his-li .li-img,
+.his-ul .his-li .li-r{
+  width:40rpx;
+  height: 40rpx;
+  margin-top: 25rpx;
+}
+.his-ul .his-li image{
+  width:40rpx;
+  height: 40rpx;
+}
+.his-ul .his-li .li-na{
+  font-size: 30rpx;
+  line-height: 90rpx;
+  color: #333333;
+  margin-left:20rpx;
+  width: 80%;
+}

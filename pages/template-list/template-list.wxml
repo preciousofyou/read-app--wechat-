@@ -1,0 +1,25 @@
+<template name="home-search">
+  <view class='sear-head'>
+    <view class='inp-fr'>
+      <image class='sear-img' src="../../images/icon/search.png"/>
+      <input bindtap="searchTo" placeholder='搜索书城/书架图书'/>
+    </view>
+  </view>
+</template>
+
+<template name="book-list">
+  <view class='books-list'>
+    <view class='list-head'>
+      <view class='bo-l-t'>{{titleHead}}</view>
+      <view class='bo-more'>查看更多></view>
+    </view>
+    <view class='im-ti-cont'>
+      <view class='con-it' wx:for="{{list}}" wx:key="id">
+        <view class='img-box'>
+        <navigator url="../book-detail/book-detail"><image src='{{item.imgUrl}}'></image></navigator>
+        </view>
+        <view class='title-box'>{{item.title}}</view>
+      </view>
+    </view>
+  </view>
+</template>

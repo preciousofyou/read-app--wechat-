@@ -1,0 +1,32 @@
+<!--pages/Selected/index.wxml-->
+<import src="../template-list/template-list.wxml" />
+
+<view class='selected'>
+  <template is="home-search"/>
+  <view class='home-tab'>
+    <view class="tab-box {{index == curIndex ? 'cur-act' : ''}}" wx:for="{{tabList}}" wx:key="id">
+      <view id="{{index}}" class="tab-na" bindtap='tabClick'>{{item}}</view>
+    </view>
+  </view>
+  <view class='swiper-cont'>
+    <swiper autoplay="true" indicator-dots="true" indicator-active-color="#fcfcfc" current="0" circular='true'>
+      <swiper-item wx:for="{{bannerImg}}" wx:key="id">
+        <image alt="{{item.title}}" class='ban-img' src="{{item.picUrl}}"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class='sub-cate'>
+    <view class='cate-cont' wx:for="{{cateList}}" wx:key="id">
+      <view class='cate-img'>
+        <image src="{{item.iconUrl}}"></image>
+      </view>
+      <view class='cate-title'>{{item.title}}</view>
+    </view>
+  </view>
+  <view class='home-book'>
+    <template is="book-list" data="{{...bookList}}"></template>
+    <template is="book-list" data="{{...bookListO}}"></template>
+    <template is="book-list" data="{{...bookListO}}"></template>
+  </view>
+</view>
+

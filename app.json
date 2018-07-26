@@ -1,0 +1,45 @@
+{
+  "pages":[
+
+    "pages/selected/index",
+    "pages/book-detail/book-detail",
+    "pages/user/index",
+    "pages/bookshelf/index",
+    "pages/sear-page/index",
+    "pages/category/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2ac795",
+    "navigationBarTitleText": "阅读",
+    "navigationBarTextStyle":"block"
+  },
+  "tabBar": {
+    "color": "#5d5d5d",
+    "selectedColor": "#2ac795",
+    "backgroundColor": "#efefef",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [{
+      "pagePath": "pages/bookshelf/index",
+      "text": "书架",
+      "iconPath": "images/nav/shelf.png",
+      "selectedIconPath": "images/nav/shelf1.png"
+    },{
+      "pagePath": "pages/selected/index",
+      "text": "精选",
+      "iconPath": "images/nav/star.png",
+      "selectedIconPath": "images/nav/star1.png"
+    },{
+      "pagePath": "pages/category/index",
+      "text": "分类",
+      "iconPath": "images/nav/category.png",
+      "selectedIconPath": "images/nav/category1.png"
+    },{
+      "pagePath": "pages/user/index",
+      "text": "我",
+      "iconPath": "images/nav/user.png",
+      "selectedIconPath": "images/nav/user1.png"
+    }]
+  }
+}
